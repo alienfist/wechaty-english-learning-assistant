@@ -20,7 +20,13 @@ npm install //安装<br>
 >记得把机器人拉入该群<br>
 
 运行程序<br>
->node index.js
+>sudo node index.js<br>
+
+备注：如果sudo运行npm或node时，出现找不到命令的情况，运行下面这些命令<br>
+sudo ln -s /usr/local/bin/node /usr/bin/node<br>
+sudo ln -s /usr/local/lib/node /usr/lib/node<br>
+sudo ln -s /usr/local/bin/npm /usr/bin/npm<br>
+sudo ln -s /usr/local/bin/node-waf /usr/bin/node-waf<br>
 
 数据存储采用sqlite3数据库(data.db)，包括两张表<br>
 >caihongpi：包含中文彩虹屁情话数据和中文励志数据，总共2783条<br>
