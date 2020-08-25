@@ -4,9 +4,9 @@
 安装
 -
 node版本v12+<br>
-git clone 本项目<br>
-cd wechaty-english-learning-assistant<br>
-npm install //安装<br>
+>git clone 本项目<br>
+>cd wechaty-english-learning-assistant<br>
+>sudo npm install //安装<br>
 
 配置环境变量<br>
 因为采用wechaty ipad协议，需要修改一个环境变量<br>
