@@ -1,0 +1,16 @@
+{
+  "name": "wechaty_robot_english_learning_assistant",
+  "version": "1.0.0",
+  "description": "english learnig assistant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alienfist",
+  "license": "ISC",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "sqlite3": "^5.0.0",
+    "wechaty": "^0.46.4"
+  }
+}
