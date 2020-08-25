@@ -13,6 +13,12 @@ npm install //安装<br>
 >export WECHATY_PUPPET=wechaty-puppet-padplus<br>
 >export WECHATY_PUPPET_PADPLUS_TOKEN='这里是你从wechaty申请的token'<br>
 
+按如下修改index.js中引入文件名<br>
+>const config_file = require('./config.js')          //引入配置文件<br>
+在config.js增加你需要功能支持的微信群名称<br>
+>"room_list": ["群名称1", "群名称2"],                 //需要支持的群名称列表<br>
+>记得把机器人拉入该群<br>
+
 运行程序<br>
 >node index.js
 
