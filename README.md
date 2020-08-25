@@ -8,6 +8,14 @@ git clone 本项目<br>
 cd wechaty-english-learning-assistant<br>
 npm install //安装<br>
 
+配置环境变量<br>
+因为采用wechaty ipad协议，需要修改一个环境变量<br>
+>export WECHATY_PUPPET=wechaty-puppet-padplus<br>
+>export WECHATY_PUPPET_PADPLUS_TOKEN='这里是你从wechaty申请的token'<br>
+
+运行程序<br>
+>node index.js
+
 数据存储采用sqlite3数据库(data.db)，包括两张表<br>
 >caihongpi：包含中文彩虹屁情话数据和中文励志数据，总共2783条<br>
 >sentence：包含中英文（名人名言，励志名言，鸡汤），总共6137条<br>
